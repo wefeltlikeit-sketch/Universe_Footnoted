@@ -1,0 +1,39 @@
+{
+  "name": "universe-footnoted",
+  "version": "0.1.0",
+  "description": "An engine for intellectual wandering: everything has footnotes.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc -b",
+    "check:seed": "vitest run src/seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wefeltlikeit-sketch/Universe_Footnoted.git"
+  },
+  "author": "",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/wefeltlikeit-sketch/Universe_Footnoted/issues"
+  },
+  "homepage": "https://github.com/wefeltlikeit-sketch/Universe_Footnoted#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "d3-force": "^3.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/d3-force": "^3.0.10",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  },
+  "private": true
+}
